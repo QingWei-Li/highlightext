@@ -24,6 +24,7 @@ fastify.get('*', async (req, reply) => {
     text = hl(code);
     reply.header('content-type', 'text/html');
   } else {
+    reply.header('content-type', 'text/plain; charset=us-ascii');
     text = hlCLI(code);
   }
 
