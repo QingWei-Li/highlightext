@@ -4,6 +4,9 @@ const axios = require('axios').default;
 
 fastify.get('*', async (req, reply) => {
   const param = req.params['*'].slice(1);
+  if (!param) {
+    reply.redirect('https://github.com/qingwei-li/highlightext');
+  }
   let url = /\./g.test(param) ? param : `//text.cinwell.com/${param}`;
 
   if (!/^http(s):/.test(url)) {
