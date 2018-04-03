@@ -1,0 +1,22 @@
+{
+  "name": "highlightext",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Highlight text service",
+  "main": "app.js",
+  "repository": "qingwei-li/highlightext",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cli-highlight": "^1.2.3",
+    "fastify": "^1.2.1",
+    "highlight.js": "^9.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}
