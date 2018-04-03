@@ -2,7 +2,7 @@
 
 > 💡 Highlight text service
 
-![image](https://user-images.githubusercontent.com/7565692/38278980-4544544a-37d9-11e8-8b18-5888aaec32e2.png)
+![image](https://user-images.githubusercontent.com/7565692/38279031-79c703c0-37d9-11e8-8fc5-581056ca8279.png)
 
 ## Usages
 
