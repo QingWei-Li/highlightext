@@ -24,7 +24,7 @@ curl https://hl.cinwell.com/raw.githubusercontent.com/QingWei-Li/hostext/master/
 
 ## Related
 
-* `hostext` - Text hosting service
+* [`hostext`](https://github.com/qingwei-li/hostext) - Text hosting service
 
 ## License
 
