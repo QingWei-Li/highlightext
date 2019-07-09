@@ -7,20 +7,20 @@
 ## Usages
 
 ```sh
-# curl https://hl.cinwell.com/[hash]
-curl https://hl.cinwell.com/99a4342c
+# curl https://hl.cinwell.xyz/[hash]
+curl https://hl.cinwell.xyz/99a4342c
 
 # or
-open https://hl.cinwell.com/99a4342c
+open https://hl.cinwell.xyz/99a4342c
 
-# curl https://hl.cinwell.com/[url]
-curl https://hl.cinwell.com/raw.githubusercontent.com/QingWei-Li/hostext/master/app.js
+# curl https://hl.cinwell.xyz/[url]
+curl https://hl.cinwell.xyz/raw.githubusercontent.com/QingWei-Li/hostext/master/app.js
 ```
 
 ## Param
 
 * `[hash]`
-  Text uploaded via https://text.cinwell.com
+  Text uploaded via https://text.cinwell.xyz
 
 ## Related
 
