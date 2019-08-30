@@ -7,7 +7,7 @@ fastify.get('*', async (req, reply) => {
   if (!param) {
     reply.redirect('https://github.com/qingwei-li/highlightext');
   }
-  let url = /\./g.test(param) ? param : `//text.cinwell.com/${param}`;
+  let url = /\./g.test(param) ? param : `//text.cinwell.xyz/${param}`;
 
   if (!/^http(s):/.test(url)) {
     if (!/^\/\//.test(url)) {
